@@ -1,17 +1,22 @@
 /**
- * ============================================================
- * MAIN CLASS - UseCase1PalindromeCheckerApp
- * ============================================================
- *
- * UC1: Application Entry & Welcome Message
+ * UC2: Print a Hardcoded Palindrome Result
  */
 
-public class UseCase1PalindromeCheckerApp {
+public class UseCasePalindromeCheckerApp {
 
     public static void main(String[] args) {
 
-        System.out.println("Welcome to the Palindrome Checker Management System");
-        System.out.println("Version : 1.0");
-        System.out.println("System initialized successfully.");
+        String input = "madam";
+        String reversed = "";
+
+        for (int i = input.length() - 1; i >= 0; i--) {
+            reversed = reversed + input.charAt(i);
+        }
+
+        if (input.equals(reversed)) {
+            System.out.println("The given string is a Palindrome");
+        } else {
+            System.out.println("The given string is NOT a Palindrome");
+        }
     }
 }
