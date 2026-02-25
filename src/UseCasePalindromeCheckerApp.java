@@ -1,21 +1,25 @@
-/**
- * UC3: Palindrome Check Using String Reverse (Loop)
- */
-
-public class UseCase3PalindromeCheckerApp {
+public class UseCasePalindromeCheckerApp {
 
     public static void main(String[] args) {
 
-        String input = "level";
-        String reversed = "";
+        String input = "radar";
+        char[] characters = input.toCharArray();
 
-        // Reverse using loop
-        for (int i = input.length() - 1; i >= 0; i--) {
-            reversed = reversed + input.charAt(i);
+        boolean isPalindrome = true;
+
+        int left = 0;
+        int right = characters.length - 1;
+
+        while (left < right) {
+            if (characters[left] != characters[right]) {
+                isPalindrome = false;
+                break;
+            }
+            left++;
+            right--;
         }
 
-        // Compare
-        if (input.equals(reversed)) {
+        if (isPalindrome) {
             System.out.println("The given string is a Palindrome");
         } else {
             System.out.println("The given string is NOT a Palindrome");
