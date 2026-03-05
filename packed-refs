@@ -1,0 +1,16 @@
+# pack-refs with: peeled fully-peeled sorted 
+7d2c40c41a924d97a82937a2ea0605ed0087fa13 refs/heads/develop
+b4b0202b5851ddc1be20e39921bfd97afc1af141 refs/heads/feature/UC1
+571889bb401351bac82999da37863508359ce66b refs/heads/feature/UC10
+c1759f76209286d218f8873e1e22b1a6b0250e78 refs/heads/feature/UC11
+31e1fd985b77a564a82167ad2537a0dabba94075 refs/heads/feature/UC12
+7d2c40c41a924d97a82937a2ea0605ed0087fa13 refs/heads/feature/UC13
+797125d39735b36602cfeabeb4472dcef7739075 refs/heads/feature/UC2
+c0fc62b011b48122b78a09130f997bc7c620f494 refs/heads/feature/UC3
+eb9250d4b6af85bfe96677b7ef176e0253bd2b0f refs/heads/feature/UC4
+b9d932c6dcea6b845db2e3ae6aed1a132d92f477 refs/heads/feature/UC5
+1425bebb333bad8a8c2e9a8e9410cc14da0e2e74 refs/heads/feature/UC6
+7ce9ed31f63d5725ab862f984c602196bd2cfeb5 refs/heads/feature/UC7
+b2661ab9a4301494a476b3a9689e53d1512acc58 refs/heads/feature/UC8
+20d133475248d4ded0fa65b1a751a0ecafe5049b refs/heads/feature/UC9
+313125cd5f7fa90d08bfb435ef0f8da8f8372b95 refs/heads/main
